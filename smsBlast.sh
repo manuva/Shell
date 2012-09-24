@@ -9,7 +9,7 @@ cd androidSDK/platform-tools
 
 #Input number and message
 num=$(zenity --entry --text="Enter mobile number" --title="Send SMS" --entry-text="+3105558221")
-mess=$(zenity --entry --text="Enter message" --title="Send SMS" --width=400 --entry-text="")
+mess=$(zenity --entry --text="Enter message" --title="Send SMS" --width=400 --entry-text="lolmessage")
 
 #Spams message five times
 #for i in 1 2 3 4 5
